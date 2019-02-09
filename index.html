@@ -29,7 +29,9 @@
 	#menu3 :hover {color: black;}
 
 
-	#google {width:30px; height:30px; position: absolute; top: 1180px; left: 60px; background-size: cover;}
+	.tooltip { width:30px; height: 30px;   position: absolute; display: inline-block; top: 1185px; left: 60px; background:url('google.png'); background-size: cover;}
+	.tooltip .tooltiptext {visibility: hidden; width: 150px; height: 18px; background-color:black; color:white; border-radius: 6px; text-align: center; font-weight: bold; padding: 5px 0;top: -20px; left:50px; font-family: 'Noto Sans KR', sans-serif;font-size: 8pt;  position: absolute; padding-bottom: -10px;}
+	.tooltip:hover .tooltiptext {visibility: visible;}
 	#copyright {width: 150px; height: 20px; position: absolute; color:black; top:1185px; left: 715px; font-family: 'Noto Sans', sans-serif; font-size: 8pt; font-weight: bolder; letter-spacing: -0.2px;}
 	#address {width:100px; height: 20px; position: absolute; color:black; top: 1184px; left: 865px; font-family: 'Noto Sans KR', sans-serif; font-size: 8pt; font-weight: bolder; letter-spacing: -0.5px; }
 	#number {width:150px; height: 20px; position: absolute; color:black; top: 1185px; left: 956px;  font-family: 'Noto Sans', sans-serif; font-size: 8pt; font-weight: bolder; letter-spacing: -0.2px;}
@@ -61,7 +63,8 @@
 
 
 
-	<img id="google" src="google.png">
+	<div class="tooltip">
+  	<span class="tooltiptext">stimseoul@gmail.com</span></div>
 	<p id="copyright">Copyright©stimseoul Inc.</p>
 	<p id="address">청담동 16-6 BF 1</p>
 	<p id="number">010 5413 8309</p>
