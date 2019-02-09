@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+	<title>stimseoul</title>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,700|Noto+Sans:400,700" rel="stylesheet">
+</head>
+<style>
+
+	body{width:1600px; margin:0 auto;}
+	ul, ol {list-style: none;}
+	a {text-decoration: none; color: #898989;}
+	#a3 {color:black;}
+
+	
+	#back {width:1600px; position: absolute; z-index:0 }
+	#logo {width:200px; left: 60px; top: 65px; position: absolute; z-index: 1; }
+
+	#main {width:200px;  height: 100px; left: 60px; top: 50px; position: absolute; font-size: 28pt; color:white; font-family: 'Noto Sans', sans-serif; z-index:0; font-weight:1000; letter-spacing: 3.2px; opacity: 0; z-index: 99; }
+	#menu1{width:100px; height: 40px; position: absolute; top: 115px; left: 1370px; font-size: 9pt; color: black; font-family: 'Noto Sans', sans-serif;  font-weight:1000;}
+	#menu1 :hover {color:black;}
+	#menu2{width:100px; height: 40px; position: absolute; top: 115px; left: 1460px; font-size: 9pt; color: black; font-family: 'Noto Sans', sans-serif;  font-weight:1000;}
+	#menu2 :hover {color: black;}
+	#menu3{width:100px; height: 40px; position: absolute; top: 115px; left: 1530px; font-size: 9pt; color: black; font-family: 'Noto Sans', sans-serif;  font-weight:1000;}
+	#menu3 :hover {color: black;}
+
+	#logoback {width:760px; position: absolute; top: 420px; left: 460px;}
+
+	#aboutus {width: 700px; height:800px; position: absolute; top: 580px; left: 500px;
+		color:black; font-family: 'Noto Sans KR', sans-serif; font-size: 9.6pt; font-weight: bolder; text-align: center; letter-spacing: -1px;}
+	#google {width:30px; height:30px; position: absolute; top: 1680px; left: 60px; background-size: cover;}
+	#copyright {width: 150px; height: 20px; position: absolute; color:black; top:1685px; left: 665px; font-family: 'Noto Sans', sans-serif; font-size: 8pt; font-weight: bolder; letter-spacing: -0.2px;}
+	#address {width:100px; height: 20px; position: absolute; color:black; top: 1684px; left: 815px; font-family: 'Noto Sans KR', sans-serif; font-size: 8pt; font-weight: bolder; letter-spacing: -0.5px; }
+	#number {width:150px; height: 20px; position: absolute; color:black; top: 1685px; left: 906px;  font-family: 'Noto Sans', sans-serif; font-size: 8pt; font-weight: bolder; letter-spacing: -0.2px;}
+
+	#background {width:1600px; height: 700px; position: absolute; top: 200px; background-color:#898989; z-index: 0;  }
+	#location {width:160px; height: 160px; background-size: cover; position: absolute; top: 430px; left: 550px; z-index: 9; }
+	#contact {width:160px; height: 160px; position: absolute; background-size: cover; top: 440px; left: 980px; z-index:9;}
+
+	#locationkr{width:200px; height: 30px; position: absolute; color: white; font-family: 'Noto Sans KR', sans-serif; font-size: 9pt; font-weight: bolder; letter-spacing: -0.2pt; text-align: center; top: 610px; left: 500px; z-index: 99; }
+	#locationnumber{width:80px; height: 30px; position: absolute; color: white; font-family: 'Noto Sans', sans-serif; font-size: 9pt; font-weight: bolder;  text-align: center; top: 611px; left: 652px; z-index: 99;}
+	#locationeng {width:200px; height: 80px; position: absolute; color: white; font-family: 'Noto Sans', sans-serif; font-size: 9pt; font-weight: bolder; text-align: center; top: 632px; left: 526px; z-index: 99;}
+	#contacteng{width:200px height:100px; position: absolute; color: white; font-family: 'Noto Sans',sans-serif; font-size: 9pt; font-weight: bolder; text-align: center; top: 610px; left: 992px; }
+</style>
+<body>
+
+	<img id="logo" src="stimseoul_logo.png">
+
+	<ul>
+		<li id="main">
+			<a id="maina" href="index.html">stimseoul</a>
+		</li>
+		<li id="menu1">
+			<a id="a1" href="about.html">
+				about us
+			</a>
+		</li>
+
+		<li id="menu2">
+			<a id="a2" href="work.html">
+				work
+			</a>
+		</li>
+		<li id="menu3">
+			<a id="a3" href="contact.html">
+				contact
+			</a>
+		</li>
+	</ul>
+
+	<div id="background"></div>
+	<img id="location" src="location.png">
+	<img id="contact" src="contact.png">
+	<p id="locationkr">서울특별시 강남구 청담동</p>
+	<p id="locationnumber">16-6 BF 1</p>
+	<p id="locationeng">16-6 BF 1 Cheong-dam dong<br>Gangnam gu Seoul Korea</p>
+	<p id="contacteng">010 5413 8309<br>stimseoul@gmail.com</p>
+
+
+
+	
+	<img id="google" src="google.png">
+	<p id="copyright">Copyright©stimseoul Inc.</p>
+	<p id="address">청담동 16-6 BF 1</p>
+	<p id="number">010 5413 8309</p>
+
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.4308928246314!2d127.0427237161309!3d37.521338751996794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca476da4857b1%3A0xdfcd7b9d430b5e9b!2z7ISc7Jq47Yq567OE7IucIOqwleuCqOq1rCDssq3ri7Trj5kgMTYtNg!5e0!3m2!1sko!2skr!4v1549680899701" width="600" height="450" frameborder="0" style="width:1600px; height:600px; order:0; position: absolute; top: 900px; " allowfullscreen></iframe>
+
+
+
+
+	
+</body>
+</html>
